@@ -1,0 +1,36 @@
+.main__error{
+    background-color: var(--color-grey-2);
+    width: 100%;
+    height: 100vh;
+}
+.errorContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100vh;
+}
+
+.asideDivError{
+    color: var(--color-grey-7);
+    width: 25%;
+}
+.descriptionError{
+    color: var(--color-grey-6);
+}
+
+.errorButton{
+    box-sizing: border-box;
+    color: var(--color-grey-7);
+
+    height: 3.75rem;
+    width: 15.625rem;
+   
+    background: #D6336C;
+    border: .125rem solid #D6336C;
+    border-radius: .5rem;
+}
+
+.errorButton:hover{
+    cursor: pointer;
+}

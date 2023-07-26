@@ -1,0 +1,102 @@
+body{
+    background-color: var(--color-grey-2);
+}
+
+.main__profile{
+    height: 100vh;   
+}
+
+.found__profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-right: 27%;
+    margin-left: 27%;
+}
+
+.userImage{
+    box-sizing: border-box;
+
+    width: 5rem;
+    height: 5rem;
+    left: 20.5rem;
+    top: 3.8125rem;
+
+    background: url(1662954279008);
+    border: .125rem solid #D6336C;
+    border-radius: 9.375rem;
+}
+
+.profileHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1.725rem;
+    color: var(--color-grey-7);
+}
+
+.switchUserButton{
+    color: var(--color-grey-7);
+    width: 10.5625rem;
+    height: 2.375rem;
+
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: .5rem;
+}
+
+.repoList{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1.1375rem;
+    margin-top: 5%;
+}
+
+.cardRepo{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    padding: 2.5%;
+    width: 21.875rem;
+    height: 15.1875rem;
+    
+    background: #191C1F;
+    border: .125rem solid #FFFFFF;
+    border-radius: .5rem;
+}
+
+.titleRepo{
+    color: var(--color-grey-7);
+}
+
+.repoDescription{
+    color: var(--color-grey-6);
+}
+
+.showRepoButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    gap: 10px;
+
+    
+    width: 93px;
+    height: 28px;
+    
+
+    background: #D6336C;
+    border: 1px solid #D6336C;
+    border-radius: 4px;
+}
